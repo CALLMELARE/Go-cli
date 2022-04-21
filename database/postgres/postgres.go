@@ -6,6 +6,7 @@ import (
 
 	"go.uber.org/zap"
 
+	_ "github.com/lib/pq"
 	"github.com/spf13/viper"
 )
 
