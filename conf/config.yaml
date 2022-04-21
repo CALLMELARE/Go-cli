@@ -1,0 +1,27 @@
+app:
+  name: "go_cli"
+  mode: "dev"
+  port: 2333
+
+log:
+  level: "debug"
+  filename: "go_cli.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 10
+
+postgres:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "your_password"
+  dbname: "db_name"
+  max_open_connects: 200
+  max_idle_connects: 50
+
+redis:
+  host: "localhost"
+  port: 6379
+  password: ""
+  db: 0
+  pool_size: 100
